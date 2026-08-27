@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wings -->
+  <path d="M 50 100 Q 30 70 20 50 Q 25 80 50 100 Z" fill="#0066cc" opacity="0.8"/>
+  <path d="M 150 100 Q 170 70 180 50 Q 175 80 150 100 Z" fill="#ff6633" opacity="0.8"/>
+
+  <!-- Circle -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#0066cc" stroke-width="3"/>
+
+  <!-- Center Icon -->
+  <text x="100" y="110" font-size="36" font-weight="bold" text-anchor="middle" fill="#ff6633">RST</text>
+
+  <!-- Text -->
+  <text x="100" y="160" font-size="12" text-anchor="middle" fill="#0066cc" font-weight="600">PROJECT MANAGEMENT</text>
+</svg>
