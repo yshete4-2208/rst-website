@@ -371,6 +371,7 @@ a {
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
     padding: 1rem;
     border: 1px solid var(--border);
@@ -749,6 +750,51 @@ footer {
     .hero-text h1 { font-size: 2rem; }
 
     .page-header h1 { font-size: 1.8rem; }
+}
+
+/* ===== Contact form and notes ===== */
+.form-heading {
+    color: var(--primary);
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.response-note {
+    background: var(--light);
+    border-left: 3px solid var(--secondary);
+    padding: 0.85rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    font-size: 0.98rem;
+}
+
+.response-note i {
+    color: var(--secondary);
+    margin-right: 0.4rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact-form select {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    background: var(--white);
+    color: var(--text);
+}
+
+.coverage {
+    margin-top: 0.25rem;
+}
+
+@media (max-width: 600px) {
+    .form-row { grid-template-columns: 1fr; }
 }
 
 /* ===== Stats, team, process ===== */
