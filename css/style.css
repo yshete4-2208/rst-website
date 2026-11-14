@@ -751,6 +751,97 @@ footer {
     .page-header h1 { font-size: 1.8rem; }
 }
 
+/* ===== Stats, team, process ===== */
+.section-heading.left { text-align: left; }
+
+.stats {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 2.5rem 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.section-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: -1rem auto 2rem;
+    color: var(--text);
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-avatar {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: var(--light);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.team-role {
+    color: var(--secondary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.step {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--secondary);
+    border-radius: 6px;
+    padding: 1.5rem;
+}
+
+.step-num {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.step h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
 /* Print Styles */
 @media print {
     .navbar,
