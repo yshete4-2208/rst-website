@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Industrial facility under construction">
+  <rect width="800" height="480" fill="#e9eef3"/>
+  <!-- ground -->
+  <rect x="0" y="390" width="800" height="90" fill="#cfd8e1"/>
+  <!-- main plant building -->
+  <rect x="120" y="230" width="380" height="160" fill="#1f3b57"/>
+  <polygon points="120,230 220,180 320,230 420,180 500,230" fill="#2c4f72"/>
+  <!-- windows -->
+  <g fill="#9fb4c8">
+    <rect x="150" y="265" width="40" height="30"/>
+    <rect x="215" y="265" width="40" height="30"/>
+    <rect x="280" y="265" width="40" height="30"/>
+    <rect x="345" y="265" width="40" height="30"/>
+    <rect x="410" y="265" width="40" height="30"/>
+  </g>
+  <!-- chimney -->
+  <rect x="520" y="150" width="34" height="240" fill="#6b7785"/>
+  <rect x="512" y="140" width="50" height="14" fill="#4d5863"/>
+  <!-- crane -->
+  <rect x="610" y="120" width="10" height="270" fill="#e07a3f"/>
+  <rect x="520" y="120" width="180" height="8" fill="#e07a3f"/>
+  <line x1="700" y1="128" x2="700" y2="230" stroke="#4d5863" stroke-width="3"/>
+  <rect x="682" y="230" width="36" height="22" fill="#6b7785"/>
+  <!-- steel frame in construction -->
+  <g stroke="#6b7785" stroke-width="4" fill="none">
+    <line x1="60" y1="390" x2="60" y2="300"/>
+    <line x1="60" y1="300" x2="110" y2="300"/>
+    <line x1="60" y1="340" x2="110" y2="340"/>
+  </g>
+  <!-- workers (simple figures) -->
+  <g fill="#e07a3f">
+    <circle cx="260" cy="420" r="9"/><rect x="252" y="430" width="16" height="28"/>
+    <circle cx="610" cy="420" r="9"/><rect x="602" y="430" width="16" height="28"/>
+  </g>
+</svg>

@@ -4,245 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RST - Project Management Consultancy | EPC Solutions</title>
+    <meta name="description" content="RST provides project management consultancy for EPC projects in manufacturing and civil engineering.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Header -->
     <header class="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <div class="logo">
+                <a href="index.html" class="logo">
                     <img src="images/rst-logo.png" alt="RST Logo" class="logo-img">
                     <div class="company-info">
                         <h2>RST</h2>
                         <p>Project Management Consultancy</p>
                     </div>
-                </div>
+                </a>
                 <nav class="nav-menu">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">Contact</a>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
                 </nav>
-                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Project Management Consultancy for EPC Projects</h1>
-                <p>Delivering Excellence in Manufacturing & Civil Engineering Projects</p>
-                <div class="hero-buttons">
-                    <a href="#services" class="btn btn-primary">Explore Services</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+    <main>
+        <section class="hero-split">
+            <div class="container hero-split-inner">
+                <div class="hero-text">
+                    <h1>Project Management Consultancy for EPC Projects</h1>
+                    <p>Focused on manufacturing and civil engineering projects, from planning through commissioning.</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary">Our Services</a>
+                        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-epc.svg" alt="Industrial facility under construction">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About RST</h2>
-            <div class="about-grid">
-                <div class="about-card">
-                    <i class="fas fa-cog"></i>
-                    <h3>Engineering Excellence</h3>
-                    <p>Specialized in EPC (Engineering, Procurement, Construction) projects with a focus on manufacturing and civil infrastructure solutions.</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Project Management</h3>
-                    <p>Expert project planning, scheduling, and execution to ensure timely and cost-effective project delivery.</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Expert Team</h3>
-                    <p>Experienced professionals dedicated to bringing your ideas alive with precision and innovation.</p>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-heading">What We Do</h2>
+                <div class="card-grid">
+                    <a href="services.html" class="card">
+                        <img src="images/manufacturing.svg" alt="Production line" class="card-img">
+                        <h3>Manufacturing</h3>
+                        <p>Production planning, process optimization and quality systems for manufacturing plants.</p>
+                    </a>
+                    <a href="services.html" class="card">
+                        <img src="images/civil.svg" alt="Civil infrastructure" class="card-img">
+                        <h3>Civil Infrastructure</h3>
+                        <p>Construction management, site supervision and safety compliance for civil works.</p>
+                    </a>
+                    <a href="services.html" class="card">
+                        <img src="images/project-planning.svg" alt="Project schedule" class="card-img">
+                        <h3>Planning &amp; Control</h3>
+                        <p>Scheduling, budgeting and risk management to keep projects on time and within cost.</p>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <!-- EPC Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>EPC Project Management</h3>
-                    <ul>
-                        <li>Engineering & Design Coordination</li>
-                        <li>Procurement Management</li>
-                        <li>Construction Planning & Execution</li>
-                        <li>Quality Assurance & Control</li>
-                        <li>Project Commissioning</li>
-                    </ul>
-                </div>
-
-                <!-- Manufacturing Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>Manufacturing Solutions</h3>
-                    <ul>
-                        <li>Process Optimization</li>
-                        <li>Production Planning & Control</li>
-                        <li>Quality Management Systems</li>
-                        <li>Manufacturing Cost Analysis</li>
-                        <li>Facility Layout Design</li>
-                    </ul>
-                </div>
-
-                <!-- Civil Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-hammer"></i>
-                    </div>
-                    <h3>Civil Infrastructure</h3>
-                    <ul>
-                        <li>Infrastructure Planning</li>
-                        <li>Construction Management</li>
-                        <li>Site Supervision</li>
-                        <li>Safety & Compliance</li>
-                        <li>Project Documentation</li>
-                    </ul>
-                </div>
-
-                <!-- Consulting Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Strategic Consulting</h3>
-                    <ul>
-                        <li>Business Process Optimization</li>
-                        <li>Resource Planning</li>
-                        <li>Risk Management</li>
-                        <li>Feasibility Studies</li>
-                        <li>Performance Analytics</li>
-                    </ul>
-                </div>
-
-                <!-- Training Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>Training & Development</h3>
-                    <ul>
-                        <li>Project Management Training</li>
-                        <li>Technical Skill Development</li>
-                        <li>Leadership Programs</li>
-                        <li>Quality Certification</li>
-                        <li>Industry Best Practices</li>
-                    </ul>
-                </div>
-
-                <!-- Support Services -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3>Technical Support</h3>
-                    <ul>
-                        <li>On-Site Consulting</li>
-                        <li>Problem Solving</li>
-                        <li>System Implementation</li>
-                        <li>Documentation & Reporting</li>
-                        <li>Continuous Improvement</li>
-                    </ul>
-                </div>
+        <section class="section section-alt">
+            <div class="container cta">
+                <h2>Planning a project?</h2>
+                <p>Tell us about your requirements and we will get back to you.</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Why Choose Us -->
-    <section class="why-choose">
-        <div class="container">
-            <h2>Why Choose RST?</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>Proven Expertise</h4>
-                    <p>Years of experience in complex EPC projects across manufacturing and civil sectors</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>On-Time Delivery</h4>
-                    <p>Committed to meeting project deadlines without compromising quality</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>Cost Optimization</h4>
-                    <p>Smart solutions that deliver value and reduce project costs</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>Expert Team</h4>
-                    <p>Dedicated professionals with deep technical and management expertise</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>Quality Assurance</h4>
-                    <p>Rigorous quality standards and compliance throughout project lifecycle</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-number">✓</span>
-                    <h4>24/7 Support</h4>
-                    <p>Round-the-clock support to ensure project success</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-card">
-                        <i class="fas fa-phone"></i>
-                        <h3>Phone</h3>
-                        <p><a href="tel:+919156834002">+91 9156834002</a></p>
-                    </div>
-                    <div class="info-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:info@rst1718.in">info@rst1718.in</a></p>
-                    </div>
-                    <div class="info-card">
-                        <i class="fab fa-linkedin"></i>
-                        <h3>LinkedIn</h3>
-                        <p><a href="https://www.linkedin.com/company/renuka-services-and-technology" target="_blank">Connect with us on LinkedIn</a></p>
-                    </div>
-                </div>
-                <form class="contact-form" onsubmit="handleSubmit(event)">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2026 RST - Project Management Consultancy. All rights reserved.</p>
-            <p>Delivering Excellence | <span class="tagline">We Make Your Ideas Alive Here!</span></p>
+            <p><span class="tagline">We Make Your Ideas Alive Here!</span></p>
         </div>
     </footer>
 

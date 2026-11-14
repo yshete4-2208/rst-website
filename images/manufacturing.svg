@@ -1,0 +1,33 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Production line with gears and conveyor">
+  <rect width="600" height="400" fill="#eef2f6"/>
+  <!-- conveyor -->
+  <rect x="60" y="250" width="480" height="24" rx="12" fill="#4d5863"/>
+  <circle cx="72" cy="262" r="16" fill="#6b7785"/>
+  <circle cx="528" cy="262" r="16" fill="#6b7785"/>
+  <!-- crates on conveyor -->
+  <rect x="110" y="200" width="60" height="50" fill="#1f3b57"/>
+  <rect x="260" y="200" width="60" height="50" fill="#1f3b57"/>
+  <rect x="410" y="200" width="60" height="50" fill="#e07a3f"/>
+  <!-- large gear -->
+  <g transform="translate(200 130)">
+    <circle r="62" fill="#1f3b57"/>
+    <g fill="#1f3b57">
+      <rect x="-12" y="-82" width="24" height="26"/>
+      <rect x="-12" y="56" width="24" height="26"/>
+      <rect x="-82" y="-12" width="26" height="24"/>
+      <rect x="56" y="-12" width="26" height="24"/>
+      <rect x="-12" y="-82" width="24" height="26" transform="rotate(45)"/>
+      <rect x="-12" y="-82" width="24" height="26" transform="rotate(135)"/>
+      <rect x="-12" y="-82" width="24" height="26" transform="rotate(225)"/>
+      <rect x="-12" y="-82" width="24" height="26" transform="rotate(315)"/>
+    </g>
+    <circle r="24" fill="#eef2f6"/>
+  </g>
+  <!-- small gear -->
+  <g transform="translate(410 120)">
+    <circle r="36" fill="#6b7785"/>
+    <circle r="12" fill="#eef2f6"/>
+  </g>
+  <!-- base -->
+  <rect x="40" y="300" width="520" height="10" fill="#cfd8e1"/>
+</svg>

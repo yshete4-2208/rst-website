@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | RST - Project Management Consultancy</title>
+    <meta name="description" content="Contact RST for project management consultancy for EPC projects.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="images/rst-logo.png" alt="RST Logo" class="logo-img">
+                    <div class="company-info">
+                        <h2>RST</h2>
+                        <p>Project Management Consultancy</p>
+                    </div>
+                </a>
+                <nav class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </nav>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We would be glad to discuss your project.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-layout">
+                <div class="contact-details">
+                    <div class="detail">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+919156834002">+91 9156834002</a></p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@rst1718.in">info@rst1718.in</a></p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/company/renuka-services-and-technology" target="_blank" rel="noopener">Renuka Services and Technology</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 RST - Project Management Consultancy. All rights reserved.</p>
+            <p><span class="tagline">We Make Your Ideas Alive Here!</span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
