@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: var(--text);
     background-color: var(--white);
@@ -459,20 +459,6 @@ footer p {
     .nav-wrapper {
         padding: 0.8rem 0;
     }
-}
-
-/* Contact page uses Cambria (falls back to Times New Roman) */
-body.page-contact,
-body.page-contact h1,
-body.page-contact h2,
-body.page-contact h3,
-body.page-contact p,
-body.page-contact a,
-body.page-contact li,
-body.page-contact input,
-body.page-contact textarea,
-body.page-contact button {
-    font-family: Cambria, 'Times New Roman', Times, serif;
 }
 
 /* ===== Multi-page layout ===== */
